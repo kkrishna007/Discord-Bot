@@ -375,4 +375,4 @@ async def on_member_join(member):
 async def on_member_remove(member):
     print(f'{member} has left the server.')
     
-client.run('NzU1ODQ1NTcwNDEyNjc1MDky.X2JOCg.kI-Tk5Jp0zfByT6kgX_wHo7ju_M')
+client.run('TOKEN')
