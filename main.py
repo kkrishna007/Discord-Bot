@@ -45,15 +45,6 @@ async def on_message(message):
 
         if 'tansen' in message.content.lower():
             await message.channel.send('Kya hua ji? Mera naam liya kisi ne ???')
-        
-        elif 'who is nitesh' in message.content.lower():
-            await message.channel.send(f'<@629655903913771046>'+ ' Ka Beta hai woh')
-
-        elif 'who is gagan' in message.content.lower():
-            await message.channel.send(f'<@571251639852335117>'+ ' Ka Beta hai wo')
-
-        elif 'who is devansh' in message.content.lower():
-            await message.channel.send("Modiji Ka Param Bhakt hai wo.\nProud RSS Member")
 
         elif 'ram ram' in message.content.lower():
             await message.channel.send(random.choice(['Jai Mata Di','Jai Shree Ram','Siyavar Ram Chandra Ki Jai']))
@@ -65,7 +56,7 @@ async def on_message(message):
             await message.channel.send('Behave!')   
 
         elif 'fuck' in message.content.lower():
-            await message.channel.send('Behen ke lode gaali mat de :face_with_symbols_over_mouth: \nDeni hai to hindi mai de.:flag_in:') 
+            await message.channel.send("Don't abuse in the GC") 
 
         elif 'rasode mai kon tha' in message.content.lower():
             await message.channel.send('Rashi Ben')
@@ -73,9 +64,6 @@ async def on_message(message):
 
         elif 'help' in message.content.lower():
             await message.channel.send('I am always there to help you.....')
-            
-        elif 'anirudh kon hai' in message.content.lower():
-            await message.channel.send('<@278592690566725632> Chutiya Hai Saala')
             
         await client.process_commands(message)   
         
